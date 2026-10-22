@@ -1,0 +1,37 @@
+{
+    "nombre": "el muelle",
+    "ancho": 26,
+    "alto": 16,
+    "filas": [
+        "TTTTTTTTTTTTTTTTTTTTTTTTTT",
+        "T..,....T.....C.....,..A.T",
+        "T.A.......,........T.....T",
+        "T....,.....R.....,....,..T",
+        "RaaaaaaaaaaaaaaaaaaaaaaaaR",
+        "~~~J~~~~~~~~==~~~~~~~J~~~~",
+        "~~~~~~~~~~~~==~~~~~~~~~~~~",
+        "~~~~~~B~~~~~==~~~~~~~~~~~~",
+        "%%%%%%%%%%%%==%%%%%%%%%%%%",
+        "%%%%%%%%%%%%==%%%%%%%%%%%%",
+        "%%%%%%%%%%%%==%%%%%%%%%%%%",
+        "%%%%%%%%%%%%==%%%%%%%%%%%%",
+        "%%%%%%==============%%%%%%",
+        "%%%%%%==============%%%%%%",
+        "%%%%%%%%%%%%%%%%%%%%%%%%%%",
+        "%%%%%%%%%%%%%%%%%%%%%%%%%%"
+    ],
+    "leyenda": {
+        ".": {"caminable":true,"tipo":"pasto"},
+        ",": {"caminable":true,"tipo":"flores"},
+        "a": {"caminable":true,"tipo":"playa"},
+        "=": {"caminable":true,"tipo":"muelle"},
+        "~": {"caminable":false,"tipo":"agua","pesca":"orilla"},
+        "%": {"caminable":false,"tipo":"honda","pesca":"honda"},
+        "J": {"caminable":false,"tipo":"junco"},
+        "B": {"caminable":false,"tipo":"bote"},
+        "T": {"caminable":false,"tipo":"arbol"},
+        "A": {"caminable":false,"tipo":"arbusto"},
+        "R": {"caminable":false,"tipo":"roca"},
+        "C": {"caminable":false,"tipo":"cartel"}
+    }
+}

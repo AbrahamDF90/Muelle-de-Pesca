@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+@source '../../storage/framework/views/*.php';
+
+/* "inline" porque las variables --font-poppins, --font-press-start y --font-medieval-sharp las genera @fonts */
+@theme inline {
+    --font-sans: var(--font-poppins, "Poppins"), ui-sans-serif, system-ui, sans-serif, 'Segoe UI Emoji';
+    --font-pixel: var(--font-press-start, "Press Start 2P"), monospace;
+    --font-medieval: var(--font-medieval-sharp, "MedievalSharp"), Georgia, serif;
+}
+
+.pixelado {
+    image-rendering: pixelated;
+}
+
+/* Fondo del inicio: el río al atardecer hecho con gradientes (sin imágenes). */
+.fondo-rio {
+    background:
+        radial-gradient(ellipse 70% 35% at 50% 0%, rgba(255, 190, 110, 0.28), transparent 70%),
+        repeating-linear-gradient(180deg, transparent 0 22px, rgba(255, 255, 255, 0.035) 22px 24px),
+        linear-gradient(180deg, #2b4f6e 0%, #1f5a80 45%, #17435f 100%);
+}
+
+/* Pergamino del formulario */
+.pergamino {
+    background: linear-gradient(180deg, #f3e6c6 0%, #e9d6a8 100%);
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.6), inset 0 0 50px rgba(120, 80, 30, 0.28);
+}
