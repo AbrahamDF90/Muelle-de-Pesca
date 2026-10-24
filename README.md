@@ -66,7 +66,7 @@ npm run dev                # Vite
 
 **Controles:** WASD o flechas · **E / Espacio** pescar · **Enter** chat · **M** sonido. En el celular aparecen un d-pad y los botones 🎣 y 💬.
 
-## 4. Cómo funciona (para la defensa)
+## 4. Cómo funciona 
 
 ```
 Navegador ──HTTP: tirar la línea, recogerla, ranking, chat────────► Laravel (el ÁRBITRO)
